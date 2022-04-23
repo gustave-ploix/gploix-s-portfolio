@@ -139,6 +139,30 @@ body .container .name-card .text.visible {
   right: 0%;
 }
 
+@media (max-width: 1700px) {
+  body .container .name-card .text:nth-child(1) {
+    font-size: 140px;
+  }
+  body .container .name-card .text:nth-child(2) {
+    font-size: 110px;
+  }
+  body .container .name-card .text:nth-child(3) {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  body .container .name-card .text:nth-child(1) {
+    font-size: 140px;
+  }
+  body .container .name-card .text:nth-child(2) {
+    font-size: 110px;
+  }
+  body .container .name-card .text:nth-child(3) {
+    font-size: 28px;
+  }
+}
+
 @media (max-width: 1367px) {
   body .container .name-card .text:nth-child(1) {
     font-size: 120px;
@@ -148,6 +172,18 @@ body .container .name-card .text.visible {
   }
   body .container .name-card .text:nth-child(3) {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 1218px) {
+  body .container .name-card .text:nth-child(1) {
+    font-size: 120px;
+  }
+  body .container .name-card .text:nth-child(2) {
+    font-size: 90px;
+  }
+  body .container .name-card .text:nth-child(3) {
+    font-size: 20px;
   }
 }
 
