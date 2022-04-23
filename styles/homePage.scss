@@ -136,7 +136,33 @@ body {
                     // transition: 0.5s ease-in-out;
                 }
 
+                @media(max-width: 1700px) {
+                    &:nth-child(1) {
+                        font-size: 140px;
+                    }
 
+                    &:nth-child(2) {
+                        font-size: 110px;
+                    }
+
+                    &:nth-child(3) {
+                        font-size: 30px;
+                    }
+                }
+
+                @media(max-width: 1440px) {
+                    &:nth-child(1) {
+                        font-size: 140px;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 110px;
+                    }
+
+                    &:nth-child(3) {
+                        font-size: 28px;
+                    }
+                }
 
                 @media(max-width: 1367px) {
                     &:nth-child(1) {
@@ -149,6 +175,20 @@ body {
 
                     &:nth-child(3) {
                         font-size: 25px;
+                    }
+                }
+
+                @media(max-width: 1218px) {
+                    &:nth-child(1) {
+                        font-size: 120px;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 90px;
+                    }
+
+                    &:nth-child(3) {
+                        font-size: 20px;
                     }
                 }
 
@@ -207,6 +247,8 @@ body {
                         font-size: 22px;
                     }
                 }
+
+                
 
             }
 

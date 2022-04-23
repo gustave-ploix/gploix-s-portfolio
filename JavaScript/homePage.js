@@ -18,5 +18,8 @@ function loadingPage() {
 window.addEventListener("load", loadingPage());
 btn.addEventListener("click", () => {
     container.classList.toggle("to-the-left");
+    setTimeout(() => {
+        window.location.href = "../secondPage.html";
+    }, 600);
 });
 
