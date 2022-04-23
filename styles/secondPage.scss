@@ -1,0 +1,38 @@
+$font: 'Supreme', sans-serif;
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    
+    position: relative;
+
+    background-color: #011638;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow-x: hidden;
+
+    canvas {
+        // width: 100vw;
+        // height: 100vh;
+        // background-color: blue;
+        position: relative;
+        // left: 100%;
+    
+        transition: left 1s ease-in-out;
+
+        &.loaded {
+            left: 9px;
+        }
+
+    }
+}
