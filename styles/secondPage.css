@@ -24,7 +24,6 @@ body {
 
 body canvas {
   position: relative;
-  left: 100%;
   -webkit-transition: left 1s ease-in-out;
   transition: left 1s ease-in-out;
 }
